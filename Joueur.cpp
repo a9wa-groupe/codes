@@ -76,7 +76,7 @@ void Joueur::ajouter_note(int i)
     for ( int i=1;i<Notes.size();i++)
     {
         s+= Notes[i];
-        cout<<s<<endl;
+        
     }
     Notes[0] = (float) s / (Notes.size() - 1 );
 }
