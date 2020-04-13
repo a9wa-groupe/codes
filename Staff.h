@@ -5,6 +5,7 @@ using namespace std;
 
 class Staff
 {
+    class Delegation
     public:
         Staff(string del="dele");
         void afficher();
