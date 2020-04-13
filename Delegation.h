@@ -10,14 +10,14 @@ using namespace std;
 
 class Delegation
 {
-    friend class Joueur;
-    friend class Staff;
+
 
     private:
         string nom;
         vector<Staff> stafflist;
         vector<Joueur> joueurlist;
 
+        int nb_de_but,nb_carton_rouge,nb_carton_jaune;
     public:
         Delegation();
         void ajouter_joueur();
