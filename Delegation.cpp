@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-Delegation::Delegation()
+Delegation::Delegation() : nb_de_but(0),nb_carton_rouge(0),nb_carton_jaune(0)
 {
     cout<<"donner le nom de la Nation :"<<endl;
     cin>>nom;
