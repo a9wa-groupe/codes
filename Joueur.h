@@ -9,6 +9,9 @@ using namespace std;
 
 class Joueur
 {
+    class Delegation
+    
+    
     private:
         string nom,prenom;
         int Nb_carton_rouge,Nb_carton_jaune,Nb_but;
